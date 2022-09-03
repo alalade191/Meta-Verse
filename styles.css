@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Merriweather',sans-serif;
+ background-image: url(./Image/pexels-tara-winstead-8386440.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-left: 2rem;
+ margin-right: 2rem;
+ line-height: 1.2em;
+}
+/* Beginning of navbar */
+nav{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ margin-top: 1rem;
+}
+.home ul{
+ display: flex;
+ list-style: none;
+ align-items: center;
+ justify-content: center;
+}
+
+li{
+ flex: 1;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+}
+a{
+ display: block;
+ text-decoration: none;
+ color: #fff;
+}
+.mag{
+color: #fff;  
+}
+span{
+ color: orangered;
+}
+.btn{
+margin-left: 10rem;
+}
+nav ul li{
+ transition: 1ms ease-in;
+}
+nav ul li .h:hover{
+ background-image: linear-gradient(to right, #cdcf69, #6e700a, #27b3ae);
+}
+nav ul li .f:hover{
+ background-image: linear-gradient(to right, #631e59, #851132, #3b72a3);
+}
+nav ul li .how:hover{
+ background-image: linear-gradient(to right, #750f09, #bdaea0, #8f721a);
+}
+nav ul li .faq:hover{
+ background-image: linear-gradient(to right, #2352a8, #5fb880, #42a8a5);
+}
+
+/* End of navbar */
+
+/* Beginning of first div */
+.first-div{
+ margin-top: 3rem;
+}
+.first-div h2{
+ color: #fff;
+}
+.first-div h5{
+ color: #fff;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+.first-div p{
+ color: hsl(300, 24%, 96%);
+}
+.first-div button{
+ margin-top: 0.8rem;
+ margin-bottom: 0.8rem;
+}
+/* End of first-div */
+
+/* Beginning of flex-row */
+.flex-row{
+ display: flex;
+ margin-bottom: 1.4rem;
+}
+.flex-row p{
+ font-size: 0.7rem;
+}
+.second-no{
+ margin-left: 2rem;
+}
+.flex-row h2{
+ color: #fff;
+}
+.flex-row p{
+ color:hsl(300, 24%, 96%)
+}
+/* End of flex-row */
+
+/* Beginning of boxes */
+.grid{
+ margin-top: 5rem;
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 0px;
+}
+.grid p{
+ padding-top: 0.4rem;
+}
+.first-box{
+ background-image: linear-gradient(to right, #610f23, #600d66);
+ border: 1px solid transparent;
+ border-radius: 10px;
+ color: #fff;
+ width: 50%;
+ padding-top: 1rem;
+ padding-right: 1rem;
+ padding-left: 1rem;
+}
+.second-box{
+ background-image: linear-gradient(to right, blue, yellow);
+ color: #fff;
+ border: 1px solid transparent;
+ border-radius: 10px;
+ width: 48%;
+ padding-top: 1.4rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+.third-box{
+ background-image: linear-gradient(to right,#3d4039, #b6f0e0);
+ color: #fff;
+ border: 1px solid transparent;
+ border-radius: 10px;
+ width: 48%;
+ padding-top: 1.4rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-bottom: 1.4rem;
+}
+button{
+ padding: 0.3rem 0.6rem;
+ cursor: pointer;
+ color: #fff;
+ background-image: linear-gradient(to right, orange, purple);
+}
+footer{
+ margin-top: 5rem;
+ background-color: #000000;
+ width: 100%;
+ padding: 0.6rem 0.4rem;
+ text-align: center;
+ color: #ffffff
+};
